@@ -5,3 +5,8 @@
 * {
   font-family: 'Kumbh Sans', sans-serif;
 }
+
+.test {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(src/assets/header-image.jpg) no-repeat;
+}
