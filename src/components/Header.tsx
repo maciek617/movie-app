@@ -17,7 +17,7 @@ const Header: React.FC = () => {
 
   return (
     <div
-      className='bg-hero-pattern h-[50vh] bg-no-repeat bg-cover text-my-white flex items-center justify-center flex-col lg:h-[75vh]'
+      className='hero-background h-[50vh] text-my-white flex items-center justify-center flex-col lg:h-[75vh]'
       id='home'
     >
       <h1 className='text-3xl text-center font-semibold md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl'>
@@ -26,7 +26,7 @@ const Header: React.FC = () => {
       <form
         onSubmit={(e) => searchForMovies(e)}
         className='mt-5 flex flex-col items-center gap-3 md:flex-row '
-        data-testid="form"
+        data-testid='form'
       >
         <input
           type='text'
