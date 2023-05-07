@@ -1,4 +1,4 @@
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <footer className='text-my-white bg-my-black px-4 py-2'>
       <div className='container mx-auto text-center flex items-center justify-between lg:px-10'>
